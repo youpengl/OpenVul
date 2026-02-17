@@ -9,7 +9,7 @@
 </div>
 
 ## 💥 News
-- The corresponding paper, “From SFT to RL: Demystifying the Post-Training Pipeline for LLM-Based Vulnerability Detection,” will be available on arXiv soon.
+- The corresponding paper, “From SFT to RL: Demystifying the Post-Training Pipeline for LLM-Based Vulnerability Detection,” is available on [arXiv](https://arxiv.org/abs/2602.14012).
 
 ## 📌 Introduction
 
@@ -142,7 +142,17 @@ python calculate_metrics.py
 - **[OpenVul-Qwen3-4B-GRPO](https://huggingface.co/Leopo1d/OpenVul-Qwen3-4B-GRPO)**, post-trained from **[OpenVul-Qwen3-4B-SFT-ep3](https://huggingface.co/Leopo1d/OpenVul-Qwen3-4B-SFT-ep3)** on the **[OpenVul_Vulnerability_Query_Dataset_for_RL](https://huggingface.co/datasets/Leopo1d/OpenVul_Vulnerability_Query_Dataset_for_RL)**, serves as the state-of-the-art (SOTA) specialized VD reasoning LLM, utilizing on-policy RL to navigate complex vulnerability reasoning paths.
 
 ## 📚 Citation
-TBD
+```
+@misc{li2026sftrldemystifyingposttraining,
+      title={From SFT to RL: Demystifying the Post-Training Pipeline for LLM-based Vulnerability Detection}, 
+      author={Youpeng Li and Fuxun Yu and Xinda Wang},
+      year={2026},
+      eprint={2602.14012},
+      archivePrefix={arXiv},
+      primaryClass={cs.CR},
+      url={https://arxiv.org/abs/2602.14012}, 
+}
+```
 
 ## 📬 Contact
 Feel free to contact me via youpeng [dot] li [dot] utdallas [dot] edu
