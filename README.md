@@ -10,7 +10,7 @@
 
 ## 💥 News
 - The corresponding paper, “From SFT to RL: Demystifying the Post-Training Pipeline for LLM-Based Vulnerability Detection,” is available on [arXiv](https://arxiv.org/abs/2602.14012).
-
+  - Correction: In Figure 5, the order of Rejection Sampling and Rationalization is reversed. We will fix this in the next version.
 ## 📌 Introduction
 
 The integration of large language models (LLMs) into vulnerability detection (VD) has shifted the field toward interpretable and context-aware analysis. While post-training techniques have shown promise in general coding tasks, their systematic application to VD remains underexplored. In this paper, we present the first comprehensive investigation into the post-training pipeline for LLM-based VD, spanning from cold-start supervised fine-tuning (SFT) to off-policy preference optimization and on-policy reinforcement learning (RL), uncovering how data curation, stage interactions, reward mechanisms, and evaluation protocols collectively dictate the efficacy of model training and assessment. Our study identifies practical guidelines and insights:
