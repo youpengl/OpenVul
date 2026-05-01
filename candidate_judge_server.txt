@@ -1,0 +1,3 @@
+one gpu node per line, e.g.,
+gpu001
+gpu002
