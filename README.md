@@ -30,6 +30,12 @@ export WANDB_API_KEY = ""
 
 We have developed the first post-training framework for LLM-based VD based on the [Hugging Face TRL](https://github.com/huggingface/trl) library. Our framework currently supports SFT, Preference Optimization (e.g., DPO, ORPO), and on-policy RL (e.g., GRPO) for VD LLMs. We plan to continuously integrate more specialized post-training algorithms for VD in the future. 
 
+## 📊 Leaderboard
+
+<div align="center">
+  <img src="https://cdn-uploads.huggingface.co/production/uploads/662906eace62e36cd324f429/5sWmQWwTEEzockoZsFZgg.png" width="700">
+</div>
+
 
 ### 🏃🏻 Running Details
 ```bash
